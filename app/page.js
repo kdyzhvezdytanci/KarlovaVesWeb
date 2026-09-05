@@ -41,8 +41,26 @@ function Header({onHome}) {
 function Landing({onSelect}) { return <main>
   <section className="mx-auto max-w-[1500px] px-5 pb-12 pt-14 sm:px-8 lg:px-12 lg:pb-20 lg:pt-20"><div className="grid gap-8 border-b border-black/15 pb-14 lg:grid-cols-12 lg:items-end"><h1 className="max-w-5xl text-[clamp(3.4rem,8.5vw,9rem)] font-medium leading-[.82] tracking-[-.075em] lg:col-span-9">Ideas for<br/>considered living.</h1><div className="lg:col-span-3"><p className="max-w-xs text-sm leading-6 text-black/60">An independent journal about design, culture, places, and the details that shape everyday life.</p><p className="mt-6 text-xs uppercase tracking-[.18em] text-black/45">Vienna · Est. 2026</p></div></div></section>
   <section className="mx-auto max-w-[1500px] px-5 pb-24 sm:px-8 lg:px-12"><div className="mb-7 flex justify-between"><h2 className="text-xs font-semibold uppercase tracking-[.2em]">Latest stories</h2><span className="text-xs text-black/45">Issue No. 01</span></div><div className="grid grid-cols-1 gap-x-5 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{articles.map((a,i)=><motion.article key={a.id} initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.45,delay:i*.035}}><button onClick={()=>onSelect(a)} className="group block w-full text-left"><div className="relative aspect-[4/3] overflow-hidden bg-[#ddd9ce]"><img src={a.image} alt="" className="h-full w-full object-cover grayscale-[15%] transition duration-700 group-hover:scale-[1.035] group-hover:grayscale-0"/><span className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-[#f3f1eb] opacity-0 transition group-hover:opacity-100"><ArrowUpRight size={16}/></span></div><div className="flex justify-between border-b border-black/15 py-3 text-[10px] uppercase tracking-[.16em] text-black/50"><span>{a.category}</span><span>{a.number}</span></div><h3 className="mt-4 text-[1.45rem] font-medium leading-[1.05] tracking-[-.035em] group-hover:opacity-55">{a.title}</h3><p className="mt-3 text-sm leading-6 text-black/55">{a.excerpt}</p></button></motion.article>)}</div></section>
-  <section id="about" className="bg-[#1c1c18] text-[#f3f1eb]"><div className="mx-auto grid max-w-[1500px] gap-12 px-5 py-20 sm:px-8 lg:grid-cols-2 lg:px-12 lg:py-28"><p className="text-xs uppercase tracking-[.2em] text-white/50">About Karlovka</p><div><p className="max-w-2xl text-3xl font-medium leading-tight tracking-[-.035em] sm:text-5xl">A home for thoughtful stories about how we build, make, travel, gather, and live.</p><p className="mt-9 max-w-xl text-sm leading-7 text-white/55">Karlovka is an independent journal and a flexible foundation for a modern publication.</p></div></div></section>
+  <section id="about" className="bg-[#1c1c18] text-[#f3f1eb]"><div className="mx-auto grid max-w-[1500px] gap-12 px-5 py-20 sm:px-8 lg:grid-cols-2 lg:px-12 lg:py-28"><p className="text-xs uppercase tracking-[.2em] text-white/50">About Karlovka</p><div> <div className="max-w-2xl">
+  <p className="text-lg leading-7 text-white/90 sm:text-xl">
+    Karlova Ves has been my home for over thirty years. It is where I spent my
+    childhood, grew up, met my wife, and where we are now raising our children.
+  </p>
+
+  <p className="mt-5 text-base leading-7 text-white/70">
+    Whether you are starting a new chapter of your life, spending your holidays
+    here, or simply passing through, I hope this website helps you discover the
+    spirit of Karlova Ves and feel a little more connected to the place around you.
+  </p>
+
+  <p className="mt-5 text-base leading-7 text-white/70">
+    Through its history, culture, and natural beauty, Karlova Ves has many
+    stories to tell. This website presents them in a simple and accessible way.
+    Enjoy exploring and make yourself at home.
+  </p>
+</div></div></div></section>
 </main> }
+
 
 function ArticlePage({article,onBack}) { useEffect(()=>window.scrollTo({top:0,behavior:"smooth"}),[article]); return <motion.main initial={{opacity:0}} animate={{opacity:1}}>
   <section className="mx-auto max-w-[1500px] px-5 pb-12 pt-10 sm:px-8 lg:px-12 lg:pt-16"><button onClick={onBack} className="mb-16 flex items-center gap-2 text-xs uppercase tracking-[.16em]"><ArrowLeft size={15}/> All stories</button><div className="grid gap-10 lg:grid-cols-12 lg:items-end"><div className="lg:col-span-9"><p className="mb-5 text-xs uppercase tracking-[.2em] text-black/50">{article.category} · {article.number}</p><h1 className="max-w-5xl text-[clamp(3.25rem,7vw,7.5rem)] font-medium leading-[.88] tracking-[-.065em]">{article.title}</h1></div><div className="border-t border-black/15 pt-4 text-xs uppercase tracking-[.14em] text-black/50 lg:col-span-3"><div className="flex justify-between py-1"><span>Published</span><span>{article.date}</span></div><div className="flex justify-between py-1"><span>Reading</span><span>{article.readTime}</span></div></div></div></section>
