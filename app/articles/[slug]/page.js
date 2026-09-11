@@ -5,10 +5,9 @@ import { remark } from "remark";
 import html from "remark-html";
 
 export default async function ArticlePage({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const contentDir = path.join(process.cwd(), "content");
-
   const categories = fs.readdirSync(contentDir);
 
   let articlePath = null;
@@ -27,7 +26,13 @@ export default async function ArticlePage({ params }) {
   }
 
   if (!articlePath) {
-    return <h1>Article not found</h1>;
+    return (
+      <main className="mx-auto max-w-4xl px-6 py-16">
+        <h1 className="text-4xl font-bold">
+          Article not found
+        </h1>
+      </main>
+    );
   }
 
   const fileContents = fs.readFileSync(articlePath, "utf8");
@@ -46,15 +51,16 @@ export default async function ArticlePage({ params }) {
         {data.title}
       </h1>
 
-      <p className="mb-10 text-sm text-gray-500">
-        {data.date}
-      </p>
+      <div className="mb-8 text-sm text-gray-500">
+        {data.category} • {data.date}
+      </div>
 
       {data.image && (
         <img
           src={data.image}
           alt={data.title}
-          className="mb-10 w     dangerouslySetInnerHTML={{
+          classx-w-none"
+        dangerouslySetInnerHTML={{
           __html: contentHtml,
         }}
       />
