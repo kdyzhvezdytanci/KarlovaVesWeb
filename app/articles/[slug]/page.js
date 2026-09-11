@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 
 const contentDirectory = path.join(process.cwd(), "content");
 
@@ -45,7 +46,6 @@ export default async function ArticlePage({ params }) {
   }
 
   const fileContents = fs.readFileSync(articlePath, "utf8");
-
   const { data, content } = matter(fileContents);
 
   const processedContent = await remark()
@@ -74,7 +74,10 @@ export default async function ArticlePage({ params }) {
       </header>
 
       {data.image && (
-        {data.image}
+        <div className="relative mb-10 aspect-[16/9] overflow-hidden">
+          {data.image} 100vw, 896px"
+          />
+        </div>
       )}
 
       {data.excerpt && (
