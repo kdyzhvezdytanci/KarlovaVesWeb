@@ -21,14 +21,14 @@ function findArticlePath(slug) {
       continue;
     }
 
-    const candidate = path.join(
+    const candidatePath = path.join(
       contentDirectory,
       category.name,
       `${slug}.md`
     );
 
-    if (fs.existsSync(candidate)) {
-      return candidate;
+    if (fs.existsSync(candidatePath)) {
+      return candidatePath;
     }
   }
 
@@ -45,6 +45,7 @@ export default async function ArticlePage({ params }) {
   }
 
   const fileContents = fs.readFileSync(articlePath, "utf8");
+
   const { data, content } = matter(fileContents);
 
   const processedContent = await remark()
@@ -56,9 +57,11 @@ export default async function ArticlePage({ params }) {
   return (
     <main className="mx-auto max-w-4xl px-5 py-16 sm:px-8 lg:py-24">
       <header className="mb-10">
-        <p className="mb-4 text-xs uppercase tracking-[0.18em] text-black/50">
-          {data.category}
-        </p>
+        {data.category && (
+          <p className="mb-4 text-xs uppercase tracking-[0.18em] text-black/50">
+            {data.category}
+          </p>
+        )}
 
         <h1 className="text-4xl font-medium leading-tight tracking-[-0.04em] sm:text-6xl">
           {data.title}
@@ -71,10 +74,11 @@ export default async function ArticlePage({ params }) {
       </header>
 
       {data.image && (
-        <img
-          src={data.image}
-          alt={data.imageAlt || data.title}
-          classdium leading-relaxed sm:text-2xl">
+        {data.image}
+      )}
+
+      {data.excerpt && (
+        <p className="mb-10 text-xl font-medium leading-relaxed sm:text-2xl">
           {data.excerpt}
         </p>
       )}
