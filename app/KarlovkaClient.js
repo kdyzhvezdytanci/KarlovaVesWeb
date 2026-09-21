@@ -32,7 +32,9 @@ function Header() {
             Stories
           </button>
 
-          #aboutAbout</a>
+          <#about
+         About
+          </Link>
 
           <a href="mailto:hello@karlovka.example">
             Contact
@@ -67,10 +69,7 @@ function Header() {
                 Stories
               </button>
 
-              #about => setOpen(false)}
-              >
-                About
-              </a>
+              import Link from "next/link";
 
               <a href="mailto:hello@karlovka.example">
                 Contact
