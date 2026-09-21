@@ -140,11 +140,16 @@ function Landing({ articles }) {
                 >
                   {`/articles/${article.slug}`}
                     <div className="relative aspect-[4/3] overflow-hidden bg-[#ddd9ce]">
-                      {article.image ? (
-                        {article.image}
-                      ) : (
-                        <div className="h-full w-full bg-[#ddd9ce]" />
-                      )}
+                     {article.image
+  ? React.createElement("img", {
+      src: article.image,
+      alt: article.imageAlt || article.title || "",
+      className:
+        "h-full w-full object-cover grayscale-[15%] transition duration-700 group-hover:scale-[1.035] group-hover:grayscale-0",
+    })
+  : React.createElement("div", {
+      className: "h-full w-full bg-[#ddd9ce]",
+    })}
 
                       <span className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-[#f3f1eb] opacity-0 transition group-hover:opacity-100">
                         <ArrowUpRight size={16} />
