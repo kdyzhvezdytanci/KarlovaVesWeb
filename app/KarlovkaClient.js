@@ -32,8 +32,8 @@ function Header() {
             Stories
           </button>
 
-          <#about
-         About
+          /#about
+          About
           </Link>
 
           <a href="mailto:hello@karlovka.example">
