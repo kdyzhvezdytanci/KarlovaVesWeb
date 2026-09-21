@@ -73,17 +73,12 @@ export default async function ArticlePage({ params }) {
         </div>
       </header>
 
-{data.image && (
-  <div className="relative mb-10 aspect-[16/9] overflow-hidden">
-    <Image
-      src={data.image}
-      alt={data.imageAlt || data.title}
-      fill
-      className="object-cover"
-      sizes="(max-width: 768px) 100vw, 896px"
-    />
-  </div>
-)}
+{data.image &&
+  React.createElement("img", {
+    src: data.image,
+    alt: data.imageAlt || data.title || "",
+    className: "mb-10 w-full object-cover",
+  })}
 
       {data.excerpt && (
         <p className="mb-10 text-xl font-medium leading-relaxed sm:text-2xl">
