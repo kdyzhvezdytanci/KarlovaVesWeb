@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -32,7 +32,7 @@ function Header() {
             Stories
           </button>
 
-         #aboutAbout</a>
+         {React.createElement("a", { href: "#about" }, "About")}
 
           <a href="mailto:hello@karlovka.example">
             Contact
