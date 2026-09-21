@@ -130,48 +130,55 @@ function Landing({ articles }) {
 
               return (
                 <motion.article
-                  key={article.slug}
-                  initial={{ opacity: 0, y: 18 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.45,
-                    delay: index * 0.035,
-                  }}
-                >
-                  {`/articles/${article.slug}`}
-                    <div className="relative aspect-[4/3] overflow-hidden bg-[#ddd9ce]">
-                     {article.image
-  ? React.createElement("img", {
-      src: article.image,
-      alt: article.imageAlt || article.title || "",
-      className:
-        "h-full w-full object-cover grayscale-[15%] transition duration-700 group-hover:scale-[1.035] group-hover:grayscale-0",
-    })
-  : React.createElement("div", {
-      className: "h-full w-full bg-[#ddd9ce]",
-    })}
+  key={article.slug}
+  initial={{ opacity: 0, y: 18 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{
+    duration: 0.45,
+    delay: index * 0.035,
+  }}
+>
+  {React.createElement(
+    Link,
+    {
+      href: `/articles/${article.slug}`,
+      className: "group block w-full text-left",
+    },
+    <>
+      <div className="relative aspect-[4/3] overflow-hidden bg-[#ddd9ce]">
+        {article.image
+          ? React.createElement("img", {
+              src: article.image,
+              alt: article.imageAlt || article.title || "",
+              className:
+                "h-full w-full object-cover grayscale-[15%] transition duration-700 group-hover:scale-[1.035] group-hover:grayscale-0",
+            })
+          : React.createElement("div", {
+              className: "h-full w-full bg-[#ddd9ce]",
+            })}
 
-                      <span className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-[#f3f1eb] opacity-0 transition group-hover:opacity-100">
-                        <ArrowUpRight size={16} />
-                      </span>
-                    </div>
+        <span className="absolute right-3 top-3 grid h-10 w-10 place-items-center rounded-full bg-[#f3f1eb] opacity-0 transition group-hover:opacity-100">
+          <ArrowUpRight size={16} />
+        </span>
+      </div>
 
-                    <div className="flex justify-between border-b border-black/15 py-3 text-[10px] uppercase tracking-[0.16em] text-black/50">
-                      <span>{article.category || article.folder}</span>
-                      <span>{articleNumber}</span>
-                    </div>
+      <div className="flex justify-between border-b border-black/15 py-3 text-[10px] uppercase tracking-[0.16em] text-black/50">
+        <span>{article.category || article.folder}</span>
+        <span>{articleNumber}</span>
+      </div>
 
-                    <h3 className="mt-4 text-[1.45rem] font-medium leading-[1.05] tracking-[-0.035em] transition-opacity group-hover:opacity-55">
-                      {article.title}
-                    </h3>
+      <h3 className="mt-4 text-[1.45rem] font-medium leading-[1.05] tracking-[-0.035em] transition-opacity group-hover:opacity-55">
+        {article.title}
+      </h3>
 
-                    {article.excerpt && (
-                      <p className="mt-3 text-sm leading-6 text-black/55">
-                        {article.excerpt}
-                      </p>
-                    )}
-                  </Link>
-                </motion.article>
+      {article.excerpt && (
+        <p className="mt-3 text-sm leading-6 text-black/55">
+          {article.excerpt}
+        </p>
+      )}
+    </>
+  )}
+</motion.article>
               );
             })}
           </div>
