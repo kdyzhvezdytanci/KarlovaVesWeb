@@ -1,38 +1,9 @@
+# The Origins of Karlova Ves
 
----
-title: "Nature"
-date: "2026-09-11"
-category: "Nature"
-excerpt: "From a small riverside settlement to one of Bratislava's most distinctive districts."
-image: "/images/articles/origin.png"
----
+The origins of Karlova Ves date back to when a settlement was established in the vicinity of the River Danube and below the hills. Official recognition dates back to **27 November 1780**, when the village of Karlsdorf was first mentioned in written records. The village first appeared on military maps in 1786 and was founded by **Count Karol Jozef Hieronym Pálffy** of the Devín estate.
 
-# The Nature of Karlova Ves
+Throughout time, Karlova Ves grew beyond its original winery and agricultural identity and was absorbed by the growing city of Bratislava in 1944. In the 1980s, the construction of Dlhé Diely transformed the landscape and identity of the original village into a mixed and diverse neighbourhood.
+Historically, Karlova Ves has served as a link between two of Bratislava's most significant historic areas: Staré Mesto, the original core of Bratislava with Bratislava Castle and the historic city centre, and Devín, an ancient settlement at the confluence of the Morava and Danube rivers, renowned for Devín Castle and its importance during the Great Moravian period.
 
-Karlova Ves has a rich and fascinating history that stretches back centuries. Long before it became a modern residential district, the area was known for its connection to the Danube, its forests, and its agricultural traditions.
+Today, Karlova Ves is a vibrant neighbourhood. It is home to the Bratislava **Zoo**, the **Botanical Garden** of Comenius University, several university campuses and student residences, and the headquarters of **Slovak Television and Radio (STVR)** in Mlynská dolina. The district also contains the historic **Slávičie údolie Cemetery**. Traces of the original wine-growing village can still be found in its lower parts, while Dlhé Diely has become one of Bratislava's most recognizable residential areas.
 
-## Early Beginnings
-
-The first settlers were drawn to the area by its fertile land and access to water. Life revolved around farming, fishing, and trade with nearby settlements.
-
-The location between the river and the hills made Karlova Ves an attractive place to live and work, while its natural surroundings provided abundant resources.
-
-> The story of Karlova Ves is one of continuous transformation, shaped by both nature and the people who called it home.
-
-## Growth and Development
-
-During the nineteenth and twentieth centuries, Karlova Ves gradually evolved from a rural settlement into an important part of Bratislava.
-
-Improved transportation links, new housing developments, and population growth brought significant changes to the district while maintaining its unique character.
-
-## Karlova Ves Today
-
-Today, Karlova Ves combines urban living with easy access to nature. Residents can enjoy forests, parks, riverside paths, and a strong sense of community, all within a short distance of the city center.
-
-The district's historical heritage remains visible in many places, reminding visitors and residents alike of the area's long and remarkable journey.
-
-## Discover More
-
-This website explores the history, culture, nature, and people of Karlova Ves through stories, photographs, and local insights. Each article reveals another piece of the district's unique identity.
-
-Thank you for joining the journey and discovering Karlova Ves.
