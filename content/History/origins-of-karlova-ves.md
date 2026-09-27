@@ -1,11 +1,3 @@
----
-title: "History of Karlova Ves"
-date: "2026-09-11"
-category: "History"
-excerpt: "From a small riverside settlement to one of Bratislava's most distinctive districts."
-image: "public/images/articles/origin.png"
----
-
 # The Origins of Karlova Ves
 
 The origins of Karlova Ves date back to when a settlement was established in the vicinity of the River Danube and below the hills. Official recognition dates back to **27 November 1780**, when the village of Karlsdorf was first mentioned in written records. The village first appeared on military maps in 1786 and was founded by **Count Karol Jozef Hieronym Pálffy** of the Devín estate.
