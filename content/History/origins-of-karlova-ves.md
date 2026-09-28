@@ -1,4 +1,4 @@
-![photo: Marek Ślusarczyk(2007)](/images/articles/Karlova_Ves_Bratislava_Areal.jpg)
+![photo: Karlova Ves (2026)](/images/articles/karlova-ves-hero-1920x800.jpg)   
 
 # The Origins of Karlova Ves
 
