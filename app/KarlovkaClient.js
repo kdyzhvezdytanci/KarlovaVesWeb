@@ -2,83 +2,10 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
-import { ArrowUpRight, Menu, X } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
-function Header() {
-  const [open, setOpen] = useState(false);
 
-  const goHome = () => {
-    setOpen(false);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  return (
-    <header className="sticky top-0 z-40 border-b border-black/10 bg-[#f3f1eb]/95 backdrop-blur-md">
-      <div className="mx-auto flex h-20 max-w-[1500px] items-center justify-between px-5 sm:px-8 lg:px-12">
-        <button
-          type="button"
-          onClick={goHome}
-          className="text-2xl font-semibold tracking-[-0.05em]"
-        >
-          KARLOVKA
-        </button>
-
-        <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-[0.18em] md:flex">
-          <button type="button" onClick={goHome}>
-            Stories
-          </button>
-
-         {React.createElement("a", { href: "#about" }, "About")}
-
-          <a href="mailto:hello@karlovka.example">
-            Contact
-          </a>
-        </nav>
-
-        <button
-          type="button"
-          onClick={() => setOpen((current) => !current)}
-          className="p-2 md:hidden"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-        >
-          {open ? <X size={20} /> : <Menu size={20} />}
-        </button>
-      </div>
-
-      <AnimatePresence>
-        {open && (
-          <motion.nav
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden border-t border-black/10 md:hidden"
-          >
-            <div className="flex flex-col gap-5 px-5 py-6 text-sm uppercase tracking-[0.16em]">
-              <button
-                type="button"
-                className="text-left"
-                onClick={goHome}
-              >
-                Stories
-              </button>
-
-              import Link from "next/link";
-
-              <a href="mailto:hello@karlovka.example">
-                Contact
-              </a>
-            </div>
-          </motion.nav>
-        )}
-      </AnimatePresence>
-    </header>
-  );
-}
 
 function Landing({ articles }) {
   return (
@@ -223,7 +150,6 @@ function Landing({ articles }) {
 export default function KarlovkaClient({ articles = [] }) {
   return (
     <div className="min-h-screen bg-[#f3f1eb] text-[#171714] selection:bg-[#171714] selection:text-[#f3f1eb]">
-      <Header />
 
       <Landing articles={articles} />
 
