@@ -1,3 +1,10 @@
+---
+title: "Origins of Karlova Ves"
+image: "/images/articles/karlova-ves-hero-1920x800.jpg"
+imageAlt: "Origins of karlova ves"
+---
+
+
 ![photo: Karlova Ves (2026)](/images/articles/karlova-ves-hero-1920x800.jpg)   
 
 # The Origins of Karlova Ves
