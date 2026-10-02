@@ -1,27 +1,53 @@
 "use client";
 
-import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function SiteHeader() {
   const [open, setOpen] = useState(false);
 
-  const closeMenu = () => {
+  function closeMenu() {
     setOpen(false);
-  };
+  }
 
   return (
     <header className="sticky top-0 z-40 border-b border-black/10 bg-[#f3f1eb]/95 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-[1500px] items-center justify-between px-5 sm:px-8 lg:px-12">
-        <Link
-          href="/"
-          onClick={closeMenu}
-          classtems-center gap-8 text-xs font-medium uppercase tracking-[0.18em] md:flex">
-          <Link hrefLink>
-          <LinkutAbout</Link>
-          <a href="mailto:hello@karlovka.example">Contact</a>
+        {React.createElement(
+          "a",
+          {
+            href: "/",
+            onClick: closeMenu,
+            className: "text-2xl font-semibold tracking-[-0.05em]",
+          },
+          "KARLOVKA"
+        )}
+
+        <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-[0.18em] md:flex">
+          {React.createElement(
+            "a",
+            {
+              href: "/",
+            },
+            "Stories"
+          )}
+
+          {React.createElement(
+            "a",
+            {
+              href: "/#about",
+            },
+            "About"
+          )}
+
+          {React.createElement(
+            "a",
+            {
+              href: "mailto:hello@karlovka.example",
+            },
+            "Contact"
+          )}
         </nav>
 
         <button
@@ -44,16 +70,32 @@ export default function SiteHeader() {
             className="overflow-hidden border-t border-black/10 md:hidden"
           >
             <div className="flex flex-col gap-5 px-5 py-6 text-sm uppercase tracking-[0.16em]">
-              <Link href        Stories
-              </Link>
+              {React.createElement(
+                "a",
+                {
+                  href: "/",
+                  onClick: closeMenu,
+                },
+                "Stories"
+              )}
 
-              /#about
-                About
-              </Link>
+              {React.createElement(
+                "a",
+                {
+                  href: "/#about",
+                  onClick: closeMenu,
+                },
+                "About"
+              )}
 
-              <a href="mailto:hello@karlovka.example" onClick={closeMenu}>
-                Contact
-              </a>
+              {React.createElement(
+                "a",
+                {
+                  href: "mailto:hello@karlovka.example",
+                  onClick: closeMenu,
+                },
+                "Contact"
+              )}
             </div>
           </motion.nav>
         )}
