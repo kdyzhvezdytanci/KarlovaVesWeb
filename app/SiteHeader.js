@@ -12,7 +12,7 @@ export default function SiteHeader() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-black/10 bg-[#f3f1eb]/95 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-black/10 bg-[#ffffff]/95 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-[1500px] items-center justify-between px-5 sm:px-8 lg:px-12">
         {React.createElement(
           "a",
