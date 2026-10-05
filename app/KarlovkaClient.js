@@ -149,7 +149,7 @@ function Landing({ articles }) {
 
 export default function KarlovkaClient({ articles = [] }) {
   return (
-    <div className="min-h-screen bg-[#f3f1eb] text-[#171714] selection:bg-[#171714] selection:text-[#f3f1eb]">
+    <div className="min-h-screen bg-[#ffffff] text-[#171714] selection:bg-[#171714] selection:text-[#f3f1eb]">
 
       <Landing articles={articles} />
 
