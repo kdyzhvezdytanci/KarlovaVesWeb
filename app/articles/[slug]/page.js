@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import { notFound } from "next/navigation";
-import Image from "next/image";
 
 const contentDirectory = path.join(process.cwd(), "content");
 
@@ -73,12 +72,9 @@ export default async function ArticlePage({ params }) {
         </div>
       </header>
 
-{data.image &&
-  React.createElement("img", {
-    src: data.image,
-    alt: data.imageAlt || data.title || "",
-    className: "mb-10 w-full object-cover",
-  })}
+{data.image && (
+  {data.image}
+)}
 
       {data.excerpt && (
         <p className="mb-10 text-xl font-medium leading-relaxed sm:text-2xl">
