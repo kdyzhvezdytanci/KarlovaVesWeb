@@ -1,7 +1,5 @@
 ---
 title: "Transport in Karlova Ves"
-image: "/images/articles/TRANSPORT.png"
-imageAlt: "Transport in karlova ves"
 ---
 
 # **Transport in Bratislava**
