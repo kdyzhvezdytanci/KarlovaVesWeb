@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the website"
-image:"/images/articles/erbBW.png"
+image: "/images/articles/erbBW.png"
 ---
 
 # Welcome to Karlovka
