@@ -1,5 +1,6 @@
 ---
 title: "Transport in Karlova Ves"
+image: "images/articles/TRANSPORT.png"
 ---
 
 # **Transport in Bratislava**
