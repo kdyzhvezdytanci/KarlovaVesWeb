@@ -1,3 +1,9 @@
+---
+title: "Geography of Karlova Ves"
+image: "/images/articles/geographyBW.png"
+imageAlt: "Geography of Karlova Ves"
+---
+
 ## Karlova Ves
 
 Karlova Ves is located in the western part of Bratislava. It encompasses the areas of historic settlement in Mlynská Dolina, the original village of Karlova Ves, and adjacent areas that became integrated into a single borough through the expansion of Bratislava. It borders several city districts. On its western side, the Danube River forms part of its natural boundary. A portion of Karlova Ves also borders Austria directly.
