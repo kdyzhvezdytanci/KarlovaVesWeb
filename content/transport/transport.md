@@ -1,3 +1,9 @@
+---
+title: "Transport in Karlova Ves"
+image: "/images/articles/TRANSPORT.png"
+imageAlt: "Transport in karlova ves"
+---
+
 # **Transport in Bratislava**
 Karlova Ves enjoys a diverse and efficient transport system that combines trams, buses, road infrastructure, cycling routes, and pedestrian-friendly (more so if you enjoy hills) urban design. 
 Its excellent connections to central Bratislava, educational and research hubs in Mlynská dolina, and recreational areas along the Danube make it one of the most accessible and convenient districts in the Slovak capital. 
