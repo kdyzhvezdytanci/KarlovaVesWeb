@@ -1,6 +1,6 @@
 ---
 title: "Origins of Karlova Ves"
-image: "/images/articles/karlova-ves-hero-1920x800.jpg"
+image: "/images/articles/historyBW.png"
 imageAlt: "Origins of karlova ves"
 ---
 
