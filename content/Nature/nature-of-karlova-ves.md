@@ -1,6 +1,6 @@
 ---
 title: "Nature of Karlova Ves"
-image: "/images/articles/origins.png"
+image: "/images/articles/natureBW.png"
 imageAlt: "Origins of karlova ves"
 ---
 
