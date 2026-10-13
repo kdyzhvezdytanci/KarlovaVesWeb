@@ -13,9 +13,9 @@ function Landing({ articles }) {
       <section className="mx-auto max-w-[1500px] px-5 pb-12 pt-14 sm:px-8 lg:px-12 lg:pb-20 lg:pt-20">
         <div className="grid gap-8 border-b border-black/15 pb-14 lg:grid-cols-12 lg:items-end">
           <h1 className="max-w-5xl text-[clamp(3.4rem,8.5vw,9rem)] font-medium leading-[0.82] tracking-[-0.075em] lg:col-span-9">
-            Ideas for
+            Conscious 
             <br />
-            considered living.
+            Living in Karlova Ves.
           </h1>
 
           <div className="lg:col-span-3">
