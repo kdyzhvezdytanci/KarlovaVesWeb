@@ -4,36 +4,42 @@ image: "/images/articles/geographyBW.png"
 imageAlt: "Geography of Karlova Ves"
 ---
 
-## Karlova Ves
+Karlova Ves is located in the western part of Bratislava. It includes the areas of historic settlement in Mlynská dolina, the original village of Karlova Ves, and surrounding areas that were gradually integrated into a single city district as Bratislava expanded. It borders several other city districts, while the Danube River forms part of its natural boundary to the south. A section of Karlova Ves also borders Austria directly.
 
-Karlova Ves is located in the western part of Bratislava. It encompasses the areas of historic settlement in Mlynská Dolina, the original village of Karlova Ves, and adjacent areas that became integrated into a single borough through the expansion of Bratislava. It borders several city districts. On its western side, the Danube River forms part of its natural boundary. A portion of Karlova Ves also borders Austria directly.
+Karlova Ves is divided into following nine sectors:
 
-Karlova Ves is divided into nine sectors:
+## 1. Karlova Ves
 
-### 1. Karlova Ves
+The approximate location of the original village, which was built on both sides of the Čierny Potok stream, also known as Suchá Vydrica. Today, the stream flows through a covered channel along almost its entire course. This area was later expanded through the development of the Kútiky neighborhood and today features a blend of urban and traditional village architecture.
 
-This area corresponds approximately to the location of the original village, through whose center flowed the Suchá Vydrica stream (later known as Čierny Potok). Over time, it expanded with the development of the Kútiky housing estate.
+## 2. Dlhé Diely
 
-### 2. Dlhé Diely
+A large housing estate situated on a hill above Karlova Ves, developed from the early 1980s. Today, it is home to more than 20,000 residents.
 
-A residential housing estate situated on the hillside above Karlova Ves, developed from the early 1980s onward.
+## 3. Líščie Údolie
 
-### 3. Líščie Údolie
+Historically part of the original Karlova Ves. Today, it is best known for its residential character and the SNP Park.
 
-Historically part of the original Karlova Ves village. Today, it is characterized by family houses and SNP Park.
+## 4. Krčace
 
-### 4. Krčace
+The northwestern edge of Karlova Ves, bordering Dúbravka. The Iuventa youth center is located here.
 
-The northwestern edge of Karlova Ves, bordering Dúbravka. It is home to IUVENTA, the Slovak Youth Institute.
+## 5. Patrónka
 
-### 5. Patrónka
+The name derives from the fact that ammunition was once produced here. Today, the area hosts several institutes of the Slovak Academy of Sciences, as well as a school for children with special educational needs.
 
-The name originates from the former Roth factory, where ammunition cartridges were produced. Today, the area hosts several facilities of the Slovak Academy of Sciences, as well as a school for children with special educational needs.
+## 6. Mlynská Dolina
 
-### 6. Mlynská Dolina
+Historically the oldest settled area of Karlova Ves. Its name comes from the many mills that once operated along the Vydrica stream. Today, the stream flows through an underground channel constructed as part of the motorway and Lanfranconi Bridge development projects. The area is also home to the headquarters of Slovak Television, as well as campuses of Comenius University and the Slovak University of Technology.
 
-Historically the oldest settled area of Karlova Ves. Its name derives from the numerous mills that once stood along the Vydrica stream. Today, the stream flows through an underground channel constructed as part of motorway development and the Lanfranconi Bridge project.
+## 7. Sitina – Zoological Garden
 
-The area is home to the headquarters of Slovak Television and Radio, as well as campuses of Comenius University and the Slovak University of Technology.
+This sector contains the highest point in Karlova Ves, Nad Sitinou (264 m above sea level). Beneath the hill runs the Sitina Tunnel. The natural Carpathian forest is complemented by the grounds of the Bratislava Zoo.
 
-### 7. Sitina and 
+## 8. Karloveská Bay
+
+Located between the Lanfranconi Bridge and the Waterworks Garden, it is a popular recreational area. It is also home to the Družba student dormitory and the Botanical Garden.
+
+## 9. Sihoť Island
+
+A major source of drinking water, containing numerous wells. Due to its protected status, it is also home to a rich variety of Danube flora and fauna. 
