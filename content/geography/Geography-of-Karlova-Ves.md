@@ -8,7 +8,7 @@ Karlova Ves is located in the western part of Bratislava. It includes the areas 
 
 Karlova Ves is divided into following nine sectors:
 
-## 1. Karlova Ves
+**1. Karlova Ves**
 
 The approximate location of the original village, which was built on both sides of the Čierny Potok stream, also known as Suchá Vydrica. Today, the stream flows through a covered channel along almost its entire course. This area was later expanded through the development of the Kútiky neighborhood and today features a blend of urban and traditional village architecture.
 
